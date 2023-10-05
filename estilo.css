@@ -1,0 +1,362 @@
+style
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.nav_logo{
+  width: 100px;
+  height: 70px;
+  transform: translate(-1500%,15%);
+  
+}
+
+
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    height: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    position: relative;
+    margin-right: 5rem;
+  }
+
+
+
+s {
+
+color: black;
+
+  }
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: rgb(19, 4, 4);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+
+
+.jumbotron-text {
+      
+    font-weight: 400;
+    font-size: 2em;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding-top: 150px;
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .jumbotron-text h1 {
+   
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
+
+  
+  
+  .jumbotron-text p {
+    margin: 0;
+  }
+
+
+  /* estilo dos fornecedorres */
+  
+  .fornecedores {
+    margin-top: 50px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.2s ease;
+   
+  }
+  
+  .fornecedores h1 {
+    font-size: 36px;
+
+    margin-bottom: 20px;
+    
+  }
+  
+  .fornecedores-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4px;
+    transition: all 0.2s ease;
+    background-color: #ffffff;
+  
+   
+    
+    
+  }
+  
+  .fornecedores {
+    border: 1px solid;
+    padding: 80px;
+    background-color: #ffffff;
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+  
+  .fornecedores img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: initial;
+    margin-bottom: 10px;
+    transition: all 0.2s ease;
+    
+
+  }
+
+    /* estilo dos produtos */
+  
+    .produtos {
+    
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+       
+      }
+      
+      .produtos h1 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        
+      }
+      .produtos h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        align-items: end;
+        
+      }
+      
+      
+      .produtos-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+        background-color: #070606;
+      }
+      
+      .produto {
+        border: 10px solid  ;
+        padding: px;
+        background-color: #000000;
+        text-align: center;
+      }
+      
+      .produto img {
+        width: 100%;
+        max-height: 300px;
+        object-fit: initial;
+        margin-bottom: 10px;
+    
+      }
+
+
+  
+
+
+
+    
+    header h1 {
+        margin: 0;
+    }
+    
+    @keyframes borderBlink {
+      0% {
+          box-shadow: 0 0 5px red;
+      }
+      50% {
+          box-shadow: 0 0 10px red;
+      }
+      100% {
+          box-shadow: 0 0 5px red;
+      }
+  }
+  
+  .main {
+      max-width: 100%;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Centraliza os elementos horizontalmente */
+      align-items: center; /* Centraliza os elementos verticalmente */
+  }
+  
+  .car {
+      width: calc(97% - 10px);
+      margin: 10px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      text-align: center;
+      animation: borderBlink 2s infinite;
+  }
+  
+  .car img {
+      max-width: 20%;
+      height: auto;
+  }
+  
+  .car h2 {
+      font-size: 24px;
+      margin: 10px 0;
+  }
+  
+  .car p {
+      font-size: 16px;
+      line-height: 1.5;
+  }
+  
+  .price {
+      font-weight: bold;
+      color: #333;
+  }
+  
+  
+  
+  
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    footer p {
+        margin: 0;
+    }
+    
+
+    
+.content {
+  /* Estilos para o seu conteúdo principal */
+  width: 100%;
+  height: 70vh; /* Ocupa toda a altura da tela */
+  background-image: url('img/Inserir\ um\ pouquinho\ de\ texto.png'); /* Substitua com o seu próprio plano de fundo */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content2{
+  /* Estilos para o seu conteúdo principal */
+  height: 100vh; /* Ocupa toda a altura da tela */
+  background-image: url('img/ENuCoviWoAEFsMs.jpg'); /* Substitua com o seu próprio plano de fundo */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rodape{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  height: auto;
+  width: 100%;
+  font-size: 14px;
+  font-family: helvetica;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+.rodape a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.rodape p{
+  margin-bottom: 5px;
+}
+.rodape-div{
+  display: flex;
+  flex-wrap: wrap;
+  width:50%;
+  margin: auto;
+  align-items: stretch;
+  padding: 60px 10px 20px 10px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+  display: flex;
+  width: calc(100% / 4 - 20px);
+  padding: 10px;
+}
+.rodape span{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.rodape-direitos{
+  width: calc(100% - 20px);
+  background-color: rgb(243, 243, 243);
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+  border-radius: 100px;
+}
+/*mobile*/
+@media (max-width: 768px) {
+  .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+      width: calc(50% - 20px);
+      padding: 10px;
+  }
+  .rodape-div{
+      padding: 60px 0px 40px 0px;
+  }
+}
+
+
